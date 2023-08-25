@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace algorithm_001
+namespace Algorithm_001
 {
     internal class Adding_Ciphers
     {

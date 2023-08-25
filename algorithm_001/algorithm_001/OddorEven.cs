@@ -1,20 +1,23 @@
 ﻿using System;
 
 
-public class Solution
+namespace Algorithm_001
 {
-    public string solution(int num)
+    public class Solution
     {
-        string answer = "";
-        if (num % 2 == 0)
+        public string solution(int num)
         {
-            answer = "Even";
-        }
-        else
-        {
-            answer = "Odd";
-        }
+            string answer = "";
+            if (num % 2 == 0)
+            {
+                answer = "Even";
+            }
+            else
+            {
+                answer = "Odd";
+            }
 
-        return answer;
-    }
+            return answer;
+        }
+    } 
 }
