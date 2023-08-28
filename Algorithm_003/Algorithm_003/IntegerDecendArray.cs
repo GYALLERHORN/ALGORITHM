@@ -37,7 +37,7 @@ namespace Algorithm_003
             for (int i = 1; i <= length; i++)
             {
                 answer += arr[i - 1] * (long)Math.Pow(10, length - i);
-            } // 각 배열 요소들에 10의 
+            } // 각 배열 요소들에 맞게 10의 n제곱 후 answer에 추가
 
             return answer;
         }
