@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algorithm_003
 {
-    public class _8Solution
+    public class _008Solution
     {
         public int solution(string s)
         {

@@ -10,16 +10,23 @@ namespace Algorithm_003
     {
         static void Main(string[] args)
         {
-            int[] ans = _7Solution.solution(123);
-            foreach (int i in ans)
-            {
-            Console.WriteLine(i);
+            //int[] ans = _007Solution.solution(123);
+            //foreach (int i in ans)
+            //{
+            //Console.WriteLine(i);
 
-            }
+            //}
 
-            long u = _9Solution.solution(10000);
-            Console.WriteLine(u);
+            //long u = _009Solution.solution(10000);
+            //Console.WriteLine(u);
+            //int i = 12452493;
+            //string j = i.ToString();
+
+            //Console.WriteLine(j[3]);
+
+
+            long ans = _010Solution.solution(16244367);
+            Console.WriteLine(ans);
         }
-
     }
 }

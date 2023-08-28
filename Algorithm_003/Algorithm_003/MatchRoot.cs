@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algorithm_003
 {
-    public class _9Solution
+    public class _009Solution
     {
         public static long solution(long n)
         {

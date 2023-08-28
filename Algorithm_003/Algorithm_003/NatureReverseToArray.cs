@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algorithm_003
 {
-        public class _7Solution // 좀 맛있게 짰는데?
+        public class _007Solution // 좀 맛있게 짰는데?
         {
         public static int[] solution(long n)
         {
