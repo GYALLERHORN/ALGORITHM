@@ -14,17 +14,30 @@ namespace Algorithm_004
             {
                 return a;
             }
+            int fixeda = a;
 
             long answer = 0;
             int i = 0;
-            int sum = 0;
-            while (i <= Math.Abs(a - b))
+            long sum = 0;
+            while (i <= Math.Abs(fixeda - b))
             {
                 sum += a;
-                a += Math.Abs(a - b) / (a - b); // 틀렸음
+
+                if (a != b)
+                {
+                    if (a - b < 0)
+                    {
+                        a += (a - b) / (a - b); // 틀렸음
+                    }
+                    else
+                    {
+                        a -= (a - b) / (a - b);
+                    }
+                }
 
                 i++;
             }
+
             answer = sum;
 
             return answer;

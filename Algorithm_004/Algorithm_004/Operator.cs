@@ -15,7 +15,7 @@ namespace Algorithm_004
             //Console.WriteLine(b);
 
             Solution1 s = new Solution1();
-            long i = s.solution(5, 3);
+            long i = s.solution(-10000000,-9999970);
             Console.WriteLine(i);
         }
     }
