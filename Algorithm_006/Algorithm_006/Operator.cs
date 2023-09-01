@@ -10,7 +10,13 @@ namespace Algorithm_006
     {
         static void Main(string[] args)
         {
-            
+            DividedNumberArray divided = new DividedNumberArray();
+            int[] ints = new int[] { 2, 7, 8, 4,5,6,30,12};
+            ints = divided.solution(ints, 11);
+            foreach (int i in ints)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
