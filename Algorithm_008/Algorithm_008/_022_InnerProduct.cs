@@ -4,13 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithm_007
+namespace Algorithm_008
 {
-    public class Operator
+    internal class InnerProduct
     {
-        static void Main(string[] args)
-        {
-
-        }
     }
 }
