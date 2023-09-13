@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm_010
+﻿namespace Algorithm_010
 {
-    internal class StringBasic
+    public class StringBasic
     {
+        public bool solution(string s)
+        {
+            bool answer = false;
+
+            if (s.Length == 4 || s.Length == 6)
+            {
+                answer = int.TryParse(s, out int i);
+            }
+            return answer;
+        }
     }
 }

@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm_010
+﻿namespace Algorithm_010
 {
-    public class Operator
+    public class RectangleofAsterisk
     {
         public static void Main()
         {
