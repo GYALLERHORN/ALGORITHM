@@ -12,7 +12,7 @@ namespace Algorithm_011
         {
             ReverseTernaryScale reverse = new ReverseTernaryScale();
 
-            Console.WriteLine(reverse.solution(12));
+            Console.WriteLine(reverse.solution(3));
         }
     }
 }
