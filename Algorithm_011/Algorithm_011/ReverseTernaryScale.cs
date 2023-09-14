@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm_011
+﻿namespace Algorithm_011
 {
     public class ReverseTernaryScale
     {
-        public int solution(int n)
+        public int solution(int n) // 진짜 수준낮은 코드다.
         {
             int answer = 0;
 
@@ -16,6 +10,10 @@ namespace Algorithm_011
 
             while (true)
             {
+                if (n < 3)
+                {
+                    return n;
+                }
                 arr.Insert(0,n%3);
                 n = n / 3;
                 if (n < 3)
