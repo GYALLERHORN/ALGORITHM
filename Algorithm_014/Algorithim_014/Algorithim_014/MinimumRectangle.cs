@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithim_014
+﻿namespace Algorithim_014
 {
     public class MinimumRectangle
     {
@@ -27,11 +21,11 @@ namespace Algorithim_014
             int maxWidth = sizes[0,0];
             int maxHeight = sizes[0,1];
 
-            for (int i = 1; i < sizes.GetLength(0); i++)
+            for (int i = 1; i < sizes.GetLength(0); i++) // 가장 큰 Width를 구하고
             {
                 maxWidth = sizes[i, 0] > maxWidth ? sizes[i,0] : maxWidth;
             }
-            for (int i = 1; i < sizes.GetLength(0); i++)
+            for (int i = 1; i < sizes.GetLength(0); i++) // 가장 큰 Height를 구합니다
             {
                 maxHeight = sizes[i, 1] > maxHeight ? sizes[i, 1] : maxHeight;
             }
