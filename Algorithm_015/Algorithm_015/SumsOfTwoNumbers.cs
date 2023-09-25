@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Algorithm_015
+﻿namespace Algorithm_015
 {
     public class SumsOfTwoNumbers
     {
@@ -30,7 +24,6 @@ namespace Algorithm_015
 
             // 중복확인하고
             answer = tempArr.Distinct().ToArray();
-
             
             return answer;
         }
