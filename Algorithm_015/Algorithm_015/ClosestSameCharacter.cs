@@ -1,6 +1,6 @@
 ﻿namespace Algorithm_015
 {
-    public class ClosestCharacter
+    public class ClosestSameCharacter
     {
         public int[] solution(string s)
         {
