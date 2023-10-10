@@ -1,19 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Algorithm_016
 {
     internal class GeneratePrimeNumber
     {
-        static void Main()
-        {
-            int[] nums = { 1, 2, 3, 4 };
-            int answer = solution(nums);
-        }
-        static int solution(int[] nums)
+        public int solution(int[] nums)
         {
             int answer = 0;
             int generatedNum;
@@ -22,7 +13,7 @@ namespace Algorithm_016
                 for (int j = i + 1; j < nums.Length - 1; j++)
                     for (int k = j + 1; k < nums.Length; k++)
                     {
-                        generatedNum = i + j + k;
+                        generatedNum = nums[i] + nums[j] + nums[k];
                         for (int aliquot = 2; aliquot <= generatedNum; aliquot++)
                         {
                             if (generatedNum % aliquot == 0 && aliquot != generatedNum)
